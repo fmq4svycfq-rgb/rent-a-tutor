@@ -30,8 +30,8 @@ export default function App() {
       guest: { id: '', name: '', email: '', role: 'guest' },
       student: { 
         id: '1', 
-        name: 'Sarah Khalil', 
-        email: 'sarah@example.com', 
+        name: 'Elias Kallas', 
+        email: 'eliaskallas@example.com', 
         role: 'student',
         balance: 25.50
       },
