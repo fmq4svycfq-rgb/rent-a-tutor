@@ -10,8 +10,8 @@ interface BookingPageProps {
 const TUTORS = [
   { 
     id: 1, 
-    name: 'Dr. Rami Nassar', 
-    subjects: ['Mathematics', 'Physics'], 
+    name: 'Dr. Katya Frangie Eter', 
+    subjects: ['English'], 
     rating: 4.9, 
     sessions: 156,
     hourlyRate: 10,
