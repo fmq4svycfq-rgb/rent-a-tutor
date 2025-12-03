@@ -19,9 +19,9 @@ const UPCOMING_BOOKINGS = [
 ];
 
 const RECENT_SESSIONS = [
-  { id: 1, student: 'Sarah K.', subject: 'Mathematics', duration: 30, earned: 3.50, rating: 5, date: 'Today' },
-  { id: 2, student: 'Rami N.', subject: 'Physics', duration: 20, earned: 2.50, rating: 5, date: 'Yesterday' },
-  { id: 3, student: 'Maya L.', subject: 'Chemistry', duration: 60, earned: 7.00, rating: 4.5, date: '2 days ago' },
+  { id: 1, student: 'Sarah K.', subject: 'Mathematics', duration: 30, earned: 6.00, rating: 5, date: 'Today' },
+  { id: 2, student: 'Rami N.', subject: 'Physics', duration: 20, earned: 4.00, rating: 5, date: 'Yesterday' },
+  { id: 3, student: 'Maya L.', subject: 'Chemistry', duration: 60, earned: 20.00, rating: 4.5, date: '2 days ago' },
 ];
 
 export function TutorDashboard({ user, onLogout, onNavigate }: TutorDashboardProps) {
