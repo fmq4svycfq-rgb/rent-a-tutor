@@ -9,19 +9,19 @@ interface TutorDashboardProps {
 }
 
 const INCOMING_REQUESTS = [
-  { id: 1, student: 'Sarah K.', subject: 'Mathematics', duration: 20, price: 4.00, time: 'Just now' },
-  { id: 2, student: 'Omar M.', subject: 'Physics', duration: 30, price: 6.00, time: '2 min ago' },
+  { id: 1, student: 'Sarah K.', subject: 'English', duration: 20, price: 4.00, time: 'Just now' },
+  { id: 2, student: 'Omar M.', subject: 'English', duration: 30, price: 6.00, time: '2 min ago' },
 ];
 
 const UPCOMING_BOOKINGS = [
-  { id: 1, student: 'Layla H.', subject: 'Chemistry', time: 'Today, 6:00 PM', duration: 60 },
-  { id: 2, student: 'Karim S.', subject: 'Mathematics', time: 'Tomorrow, 2:00 PM', duration: 30 },
+  { id: 1, student: 'Layla H.', subject: 'English', time: 'Today, 6:00 PM', duration: 60 },
+  { id: 2, student: 'Karim S.', subject: 'English', time: 'Tomorrow, 2:00 PM', duration: 30 },
 ];
 
 const RECENT_SESSIONS = [
-  { id: 1, student: 'Sarah K.', subject: 'Mathematics', duration: 30, earned: 6.00, rating: 5, date: 'Today' },
-  { id: 2, student: 'Rami N.', subject: 'Physics', duration: 20, earned: 4.00, rating: 5, date: 'Yesterday' },
-  { id: 3, student: 'Maya L.', subject: 'Chemistry', duration: 60, earned: 20.00, rating: 4.5, date: '2 days ago' },
+  { id: 1, student: 'Sarah K.', subject: 'English', duration: 30, earned: 6.00, rating: 5, date: 'Today' },
+  { id: 2, student: 'Rami N.', subject: 'English', duration: 20, earned: 4.00, rating: 5, date: 'Yesterday' },
+  { id: 3, student: 'Maya L.', subject: 'English', duration: 60, earned: 20.00, rating: 4.5, date: '2 days ago' },
 ];
 
 export function TutorDashboard({ user, onLogout, onNavigate }: TutorDashboardProps) {
