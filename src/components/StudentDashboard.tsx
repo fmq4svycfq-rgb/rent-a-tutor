@@ -113,9 +113,9 @@ export function StudentDashboard({ user, onLogout, onNavigate, onStartSession }:
                     <label className="block text-sm mb-2">Session Duration</label>
                     <div className="grid grid-cols-3 gap-3">
                       {[
-                        { duration: 10, price: 1.50 },
-                        { duration: 20, price: 2.50 },
-                        { duration: 30, price: 3.50 }
+                        { duration: 10, price: 2.00 },
+                        { duration: 20, price: 4.00 },
+                        { duration: 30, price: 6.00 }
                       ].map(({ duration, price }) => (
                         <button
                           key={duration}
