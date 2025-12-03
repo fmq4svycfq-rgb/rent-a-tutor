@@ -227,7 +227,7 @@ export function TutorDashboard({ user, onLogout, onNavigate }: TutorDashboardPro
                 
                 <div>
                   <div className="text-sm text-blue-600 mb-1">Pending (This Week)</div>
-                  <div className="text-blue-900">$45.50</div>
+                  <div className="text-blue-900">$260</div>
                 </div>
                 
                 <button className="w-full px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
@@ -291,7 +291,7 @@ export function TutorDashboard({ user, onLogout, onNavigate }: TutorDashboardPro
             <div className="bg-white rounded-xl p-6">
               <h3 className="text-blue-900 mb-4">Your Subjects</h3>
               <div className="space-y-2">
-                {['Mathematics', 'Physics', 'Chemistry'].map(subject => (
+                {['English'].map(subject => (
                   <div key={subject} className="flex items-center justify-between p-2 bg-blue-50 rounded">
                     <span className="text-blue-700">{subject}</span>
                     <span className="text-blue-600 text-sm">Verified ✓</span>
