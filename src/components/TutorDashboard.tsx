@@ -9,8 +9,8 @@ interface TutorDashboardProps {
 }
 
 const INCOMING_REQUESTS = [
-  { id: 1, student: 'Sarah K.', subject: 'Mathematics', duration: 20, price: 2.50, time: 'Just now' },
-  { id: 2, student: 'Omar M.', subject: 'Physics', duration: 30, price: 3.50, time: '2 min ago' },
+  { id: 1, student: 'Sarah K.', subject: 'Mathematics', duration: 20, price: 4.00, time: 'Just now' },
+  { id: 2, student: 'Omar M.', subject: 'Physics', duration: 30, price: 6.00, time: '2 min ago' },
 ];
 
 const UPCOMING_BOOKINGS = [
