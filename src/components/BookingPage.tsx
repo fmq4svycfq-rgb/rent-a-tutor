@@ -114,7 +114,7 @@ export function BookingPage({ user, onBack }: BookingPageProps) {
                     }`}
                   >
                     <div className="text-blue-900 mb-1">30 minutes</div>
-                    <div className="text-blue-600">$5.00</div>
+                    <div className="text-blue-600">$8.00</div>
                   </button>
                   <button
                     onClick={() => setDuration(60)}
