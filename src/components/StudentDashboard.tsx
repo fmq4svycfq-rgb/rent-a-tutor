@@ -16,7 +16,7 @@ const SUBJECTS = [
 ];
 
 const RECENT_SESSIONS = [
-  { id: 1, tutor: 'Dr. Rami Nassar', subject: 'Mathematics', duration: 30, rating: 5, date: '2 days ago' },
+  { id: 1, tutor: 'Dr. Katia Frangie Eter', subject: 'English', duration: 30, rating: 5, date: '2 days ago' },
   { id: 2, tutor: 'Lina Karam', subject: 'Physics', duration: 20, rating: 4.5, date: '5 days ago' },
   { id: 3, tutor: 'Ahmad Hassan', subject: 'Chemistry', duration: 10, rating: 5, date: '1 week ago' },
 ];
@@ -39,7 +39,7 @@ export function StudentDashboard({ user, onLogout, onNavigate, onStartSession }:
       subject: selectedSubject,
       rating: 4.8,
       duration: sessionDuration,
-      price: sessionDuration === 10 ? 1.50 : sessionDuration === 20 ? 2.50 : 3.50
+      price: sessionDuration === 10 ? 2.00 : sessionDuration === 20 ? 4.00 : 6.00
     };
     
     onStartSession(mockTutor);
