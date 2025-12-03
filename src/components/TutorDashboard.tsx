@@ -253,7 +253,7 @@ export function TutorDashboard({ user, onLogout, onNavigate }: TutorDashboardPro
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div 
                       className="bg-blue-500 h-2 rounded-full" 
-                      style={{ width: `${(user.rating! / 5) * 100}%` }}
+                      style={{ width: `${(user.rating! / 5.0) * 100}%` }}
                     />
                   </div>
                 </div>
