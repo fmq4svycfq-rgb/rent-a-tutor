@@ -14,7 +14,7 @@ const TUTORS = [
     subjects: ['English'], 
     rating: 4.9, 
     sessions: 156,
-    hourlyRate: 10,
+    hourlyRate: 20,
     availability: ['Mon 2-6 PM', 'Wed 4-8 PM', 'Fri 1-7 PM']
   },
   { 
@@ -23,7 +23,7 @@ const TUTORS = [
     subjects: ['Chemistry', 'Biology'], 
     rating: 4.8, 
     sessions: 142,
-    hourlyRate: 9,
+    hourlyRate: 15,
     availability: ['Tue 3-7 PM', 'Thu 2-6 PM', 'Sat 10 AM-4 PM']
   },
   { 
@@ -32,7 +32,7 @@ const TUTORS = [
     subjects: ['Mathematics', 'Computer Science'], 
     rating: 4.7, 
     sessions: 98,
-    hourlyRate: 8,
+    hourlyRate: 18,
     availability: ['Mon 6-10 PM', 'Wed 7-11 PM', 'Sun 2-8 PM']
   },
   { 
@@ -41,7 +41,7 @@ const TUTORS = [
     subjects: ['English', 'French', 'Arabic'], 
     rating: 4.9, 
     sessions: 203,
-    hourlyRate: 10,
+    hourlyRate: 14,
     availability: ['Daily 4-9 PM']
   },
 ];
