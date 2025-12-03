@@ -58,7 +58,7 @@ export function BookingPage({ user, onBack }: BookingPageProps) {
       return;
     }
     
-    const cost = duration === 30 ? 5 : selectedTutor.hourlyRate;
+    const cost = duration === 30 ? 8 : selectedTutor.hourlyRate;
     alert(`Session booked with ${selectedTutor.name}!\nDate: ${selectedDate}\nTime: ${selectedTime}\nDuration: ${duration} min\nCost: $${cost}`);
     onBack();
   };
