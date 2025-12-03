@@ -37,11 +37,11 @@ export default function App() {
       },
       tutor: { 
         id: '2', 
-        name: 'Ahmad Hassan', 
-        email: 'ahmad@example.com', 
+        name: 'Dr. Katia Frangie Eter', 
+        email: 'katia.frangie@example.com', 
         role: 'tutor',
-        rating: 4.8,
-        balance: 142.30
+        rating: 5.0,
+        balance: 1142.30
       },
       admin: { 
         id: '3', 
