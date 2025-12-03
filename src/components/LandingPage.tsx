@@ -82,7 +82,7 @@ export function LandingPage({ onLogin }: LandingPageProps) {
               </div>
               <h3 className="text-blue-900 mb-2">Affordable Pricing</h3>
               <p className="text-blue-600">
-                Sessions start at just $1.50 for 10 minutes. Lebanon-based pricing that fits your budget.
+                Sessions start at just $2.00 for 10 minutes. Lebanon-based pricing that fits your budget.
               </p>
             </div>
             
