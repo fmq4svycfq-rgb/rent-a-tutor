@@ -258,7 +258,7 @@ export function BookingPage({ user, onBack }: BookingPageProps) {
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-2 text-blue-600">
                   <Clock className="w-4 h-4" />
-                  <span className="text-sm">30 min: $5 • 60 min: ${tutor.hourlyRate}</span>
+                  <span className="text-sm">30 min: $8.00 • 60 min: ${tutor.hourlyRate}</span>
                 </div>
               </div>
 
