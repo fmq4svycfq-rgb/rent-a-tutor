@@ -183,7 +183,7 @@ export function BookingPage({ user, onBack }: BookingPageProps) {
                 <div className="flex justify-between pt-2 border-t border-gray-200">
                   <span className="text-blue-900">Total Cost</span>
                   <span className="text-blue-900">
-                    ${duration === 30 ? '5.00' : selectedTutor.hourlyRate + '.00'}
+                    ${duration === 30 ? '8.00' : selectedTutor.hourlyRate + '.00'}
                   </span>
                 </div>
               </div>
