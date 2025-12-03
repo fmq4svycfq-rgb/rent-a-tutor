@@ -138,15 +138,15 @@ export function LandingPage({ onLogin }: LandingPageProps) {
             <div className="space-y-3">
               <div className="flex justify-between">
                 <span className="text-blue-700">10 minutes</span>
-                <span className="text-blue-900">$1.50</span>
+                <span className="text-blue-900">$2.00</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-blue-700">20 minutes</span>
-                <span className="text-blue-900">$2.50</span>
+                <span className="text-blue-900">$4.00</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-blue-700">30 minutes</span>
-                <span className="text-blue-900">$3.50</span>
+                <span className="text-blue-900">$6.00</span>
               </div>
             </div>
             <p className="text-blue-600 mt-4 text-sm">Perfect for quick questions and concept clarification</p>
@@ -157,11 +157,11 @@ export function LandingPage({ onLogin }: LandingPageProps) {
             <div className="space-y-3">
               <div className="flex justify-between">
                 <span className="text-blue-700">30 minutes</span>
-                <span className="text-blue-900">$5.00</span>
+                <span className="text-blue-900">$8.00</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-blue-700">60 minutes</span>
-                <span className="text-blue-900">$8-10</span>
+                <span className="text-blue-900">$14-20</span>
               </div>
             </div>
             <p className="text-blue-600 mt-4 text-sm">Schedule in advance with your favorite tutor</p>
