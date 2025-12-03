@@ -412,7 +412,7 @@ export function AdminDashboard({ user, onLogout }: AdminDashboardProps) {
                 <h3 className="text-blue-900 mb-4">Top Tutors</h3>
                 <div className="space-y-3">
                   {[
-                    { name: 'Dr. Rami Nassar', earnings: 1245 },
+                    { name: 'Dr. Katia Frangie Eter', earnings: 1245 },
                     { name: 'Maya Sleiman', earnings: 1089 },
                     { name: 'Ahmad Hassan', earnings: 945 },
                     { name: 'Lina Karam', earnings: 876 }
